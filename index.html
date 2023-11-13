@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>triple time event</title>
+</head>
+
+<body>
+    <header>
+        <h1>Triple Time Event</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background">
+        <section id="home">
+            <div class="heading">
+                <h2>Give Us A Opportunity To Make Your Event Fantastic.</h2>
+                <p>Event that you never forgot</p>
+
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Plans :</h2>
+            <div class="plan">
+                <img src="plan1.jpg" alt="Plan 1">
+                <h3>Wedding Ceremony</h3>
+                <p></p>
+            </div>
+            <div class="plan">
+                <img src="plan2.jpg" alt="Plan 2">
+                <h3>Birthday Celebration</h3>
+                <p></p>
+            </div>
+            <div class="plan">
+                <img src="plan3.jpeg" alt="Plan 3 ">
+                <h3>Marriage Anniversery</h3>
+                <p></p>
+            </div>
+    </div>
+
+
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+
+            Welcome to Triple Time Event, where we turn dreams into extraordinary events. We understand that each
+            occasion is a unique expression of your personality, and we are here to ensure that your vision comes to
+            life seamlessly.<br><br>
+
+            At Triple Time Event, we pride ourselves on being more than just event planners – we are your partners in
+            creating unforgettable experiences. With a team of passionate and creative professionals, we bring
+            innovation, precision, and a touch of magic to every event we handle.<br>
+
+        <h2> Our Mission:</h2><br>
+        At the heart of our mission is a commitment to transforming your ideas into reality. We believe that every event
+        should be a reflection of your individuality, and we strive to infuse your personality and style into every
+        detail. Whether it's a corporate gathering, a milestone celebration, or a themed extravaganza, we approach each
+        project with enthusiasm and dedication.<br>
+
+        <h2> Why Choose Triple Time Event?</h2><br>
+
+        <h4>Expertise:</h4> Our team consists of seasoned professionals with a wealth of experience in the event
+        management
+        industry. From concept to execution, we have the expertise to handle every aspect of your event.<br>
+        <h4>Innovation:</h4> We stay ahead of industry trends and bring fresh, innovative ideas to the table. Our goal
+        is to make
+        your event stand out and leave a lasting impression on your guests.<br>
+        <h4>Attention to Detail:</h4> We believe that perfection lies in the details. Our meticulous planning and
+        execution
+        ensure that no detail is overlooked, creating a flawless and memorable experience for you and your guests.<br>
+        <h4>Collaboration:</h4> Your input is invaluable to us. We work closely with you, listening to your ideas and
+        preferences, to ensure that the event reflects your vision and exceeds your expectations.<br>
+        <h2> Services We Offer:</h2><br>
+
+        Corporate Events<br>
+        Weddings and Celebrations<br>
+        Themed Parties<br>
+        Product Launches<br>
+        Conferences and Seminars<br>
+        And more...<br>
+        <h3>Triple Time Event is not just an event management company; we are your partners in turning moments into
+            memories. Let us bring your vision to life – because your special day deserves nothing less than
+            perfection.<br>
+
+            Contact us today to begin the journey to an extraordinary event!</h3>
+        </p>
+    </section>
+
+    <section id="contact">
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Fill your details.We will contact you soon</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="button" onclick="validateForm()">Submit</button>
+            </form>
+            <p>Visit us at: [Block A, Road No -57<br>
+                Near Appolo Hospital<br>
+                Patna Bihar (8200001)</p>
+            <p>Call us at: [9564544466]</p>
+        </section>
+        <script>
+            function validateForm() {
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                var message = document.getElementById("message").value;
+
+                if (name === "" || email === "" || message === "") {
+                    alert("Please fill out all fields");
+                } else {
+                    alert("We will reach you shortly.");
+                }
+            }
+        </script>
+</body>
+
+</html>
